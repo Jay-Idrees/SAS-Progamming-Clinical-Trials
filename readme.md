@@ -20,6 +20,11 @@
     - Class 3 - highest risk devices: heart valves, implantations
 
 ## Regulations
-    - Fedral laws
-    - Fedral Guidelines (eCTDs)
-    - Industry Regulations and Standards (ICH, CDISC)
+- **Fedral laws** 
+    - 21 CFR (Code of fedral regulations) - Part 11, electronic records and signatures to FDA
+        - The person must be qualified
+        - programming must be validated
+        -  must have system security
+        - change control procedures for SAS programming
+- **Fedral Guidelines** (eCTDs - electronic common technical documents)
+- **Industry Regulations** and Standards (ICH, CDISC)
