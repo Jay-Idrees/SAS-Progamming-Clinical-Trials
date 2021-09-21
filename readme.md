@@ -21,10 +21,14 @@
 
 ## Regulations
 - **Fedral laws** 
-    - 21 CFR (Code of fedral regulations) - Part 11, electronic records and signatures to FDA
-        - The person must be qualified
-        - programming must be validated
-        -  must have system security
-        - change control procedures for SAS programming
-- **Fedral Guidelines** (eCTDs - electronic common technical documents)
+    - `21 CFR (Code of fedral regulations) - Part 11`, electronic records and signatures to FDA
+        - The person must be qualified to do your work. Must have a degree
+        - Programming must be validated - compared with another statistical programmer
+        - Must have system security - Not every person can access the data
+        - Change control procedures for SAS programming - Versions of the program will be documented. It should be documented why there are 2 versions of the program after finalized
+    - `HIPA` - Only a patient's **initials** and **date of birth** can be collected
+- **Fedral Guidelines** (eCTDs - Electronic Common Technical Documents)
 - **Industry Regulations** and Standards (ICH, CDISC)
+    - `E3 - Structure and content` of Clinical Study Reports - Clinical study report for FDA submission
+    - `E9 - Statistical principals` for clinical trials - Statistical issues for the design and conduct of a clinical trial
+    - `E6 - Good Clinical Practice`: Consolidated Guidance - Overall standards
