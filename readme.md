@@ -85,10 +85,21 @@ Clinical Report Forms - 10 types
     - `proc sort`
         - ascending (default) or descending
     - `proc sql`
-        - you can use multiple variables separated by 
+        - you can use multiple variables separated by ','. You can use the dictionary.options/columns,titles,views,formats,libnames
+        - You can combine it with from and where for more targeted queries
     - `proc contents`
         - Provides logistics of the dataset like variables it contains, their type
+        - useful options nods, details
+    - `proc freq`
+        - Can be used to detect missing values
+    - `proc univariate`
+        - Descriptive statistics. Options plots, ods graphics on
+    - `proc transpose`
+        - Converting data frin long to wide and from wide to long
+    - `data`
+        - keep and drop options. Note that the lable option for data set is not the same as the lable option for a variable
 - **Transform Clinical Trials Data**
+    - Transforming data from long to wide and wide to long
     - `do loops`, `proc transpose`
     - `retain`
     - `categorization`
@@ -97,7 +108,7 @@ Clinical Report Forms - 10 types
     - Change from baselne, percent change
 - **Statistical Procedures**
     - `freq`, `univariate`, `means`, `summary`
-    - `freq` for categorical data
+    - `freq` for categorical data. It can also be use to find outliers and missing values. 'tables' option is useful
     - `ttest`
     - `extract`
 - **Macro Programming**
