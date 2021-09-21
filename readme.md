@@ -29,6 +29,6 @@
     - `HIPA` - Only a patient's **initials** and **date of birth** can be collected
 - **Fedral Guidelines** (eCTDs - Electronic Common Technical Documents)
 - **Industry Regulations** and Standards (ICH, CDISC)
-    - `E3 - Structure and content` of Clinical Study Reports - Clinical study report for FDA submission
-    - `E9 - Statistical principals` for clinical trials - Statistical issues for the design and conduct of a clinical trial
-    - `E6 - Good Clinical Practice`: Consolidated Guidance - Overall standards
+    - ` ICH E3 - Structure and content` of Clinical Study Reports - Clinical study report for FDA submission
+    - `ICH E9 - Statistical principals` for clinical trials - Statistical issues for the design and conduct of a clinical trial
+    - `ICH E6 - Good Clinical Practice`: Consolidated Guidance - Overall standards
