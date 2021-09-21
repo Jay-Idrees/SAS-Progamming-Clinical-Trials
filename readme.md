@@ -75,11 +75,19 @@ Clinical Report Forms - 10 types
 ## SAS Programing Commands commonly used in Clincial Trials data
 - **Import and Export clinical trials data**
     - `set`, `merge`
+        - set is vertical concatination of data rows from multiple datasets
+        - merge is horizontal concatination of data columns from multipls datasets - For this you need a key variable
     - `libname`, `proc import/export`
     - `sas V5 (proc copy)`
 - **Manage Clinical Trials Data**
     - `print`, `contents`, `freq`
     - `dictionary` using `sql`
+    - `proc sort`
+        - ascending (default) or descending
+    - `proc sql`
+        - you can use multiple variables separated by 
+    - `proc contents`
+        - Provides logistics of the dataset like variables it contains, their type
 - **Transform Clinical Trials Data**
     - `do loops`, `proc transpose`
     - `retain`
@@ -94,3 +102,11 @@ Clinical Report Forms - 10 types
     - `extract`
 - **Macro Programming**
     - `mprint`, `symbolgen`, `mlogic`
+
+- SAS V5 format: 
+    - SAS V5 (`XPT` or `XPORT` file)
+    - The format controls for different operating systems
+    - Variable names can only be up to 8 characters
+    - Character variables can have lengths up to 200 bytes
+    - Variable lables can have lengths up 40 characters
+    - Allows only alphanumeric characters and underscores
