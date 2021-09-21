@@ -27,8 +27,12 @@
         - Must have system security - Not every person can access the data
         - Change control procedures for SAS programming - Versions of the program will be documented. It should be documented why there are 2 versions of the program after finalized
     - `HIPA` - Only a patient's **initials** and **date of birth** can be collected
+
 - **Fedral Guidelines** (eCTDs - Electronic Common Technical Documents)
+    - `Study data standards` - Standards of Electronic Submissions of data to FDA
+        - Data must be submitted in `SDTM` and `ADaM` formats
+        
 - **Industry Regulations** and Standards (ICH, CDISC)
-    - `ICH E3 - Structure and content` of Clinical Study Reports - Clinical study report for FDA submission
-    - `ICH E9 - Statistical principals` for clinical trials - Statistical issues for the design and conduct of a clinical trial
+    - `ICH E3 - Structure and content` of Clinical Study Reports - **Clinical study report for FDA submission** - deals with what must be the contents of these reports
+    - `ICH E9 - Statistical principals` for clinical trials - Statistical issues for the design and conduct of a clinical trial. For example intent to treat and safety populations
     - `ICH E6 - Good Clinical Practice`: Consolidated Guidance - Overall standards
