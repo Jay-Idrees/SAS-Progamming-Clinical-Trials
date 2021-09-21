@@ -35,8 +35,9 @@
         - CDER Common Data Standards Issues Document
         - CDER Data Standards Program
 
-- **Industry Regulations** and Standards (ICH, CDISC)
-    - `ICH E3 - Structure and content` of Clinical Study Reports - **Clinical study report for FDA submission** - deals with what must be the contents of these reports
-    - `ICH E9 - Statistical principals` for clinical trials - Statistical issues for the design and conduct of a clinical trial. For example intent to treat and safety populations
+- **Industry Regulations** and Standards (`ICH` - International Conference on Harmonization, `CDISC` -Clinical Data Interchange Standards Consortium ) 
+- ICH is a global organization that provides standard values for data
+    - `ICH E3 - Structure and content` : of Clinical Study Reports - **Clinical study report for FDA submission** - deals with what must be the contents of these reports
+    - `ICH E9 - Statistical principals` : for clinical trials - Statistical issues for the design and conduct of a clinical trial. For example intent to treat and safety populations
     - `ICH E6 - Good Clinical Practice`: Consolidated Guidance - Overall standards
 
