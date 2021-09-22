@@ -72,7 +72,7 @@ Clinical Report Forms - 10 types
     - Quality of life data
         - SF-36 and SF-12 health survey for quality of life questionares
 
-## SAS Programing Commands commonly used in Clincial Trials data
+## SAS Programing Commands commonly used in Clincial Trials Data
 - **Import and Export clinical trials data**
     - `set`, `merge`
         - set is vertical concatination of data rows from multiple datasets
@@ -95,14 +95,15 @@ Clinical Report Forms - 10 types
     - `proc univariate`
         - Descriptive statistics. Options plots, ods graphics on
     - `proc transpose`
-        - Converting data frin long to wide and from wide to long
+        - Converting data frin long to wide and from wide to long. Alternatively this can also be done using a ` data doloop`
     - `data`
         - keep and drop options. Note that the lable option for data set is not the same as the lable option for a variable
 - **Transform Clinical Trials Data**
     - Transforming data from long to wide and wide to long
-    - `do loops`, `proc transpose`
+    - `doloop`, `proc transpose`
     - `retain`
-    - `categorization`
+    - `if then else`
+        - You can use this to create categories. The categories should be mutually exclusive
     - functions (`input`, `put`, `date`)
     - `locf`, `bocf`, `wocf`
     - Change from baselne, percent change
