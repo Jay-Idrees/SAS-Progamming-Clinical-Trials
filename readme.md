@@ -102,6 +102,7 @@ Clinical Report Forms - 10 types
     - Transforming data from long to wide and wide to long
     - `doloop`, `proc transpose`
     - `retain`
+        - Retain can be used to select a baseline and then calculate percent change. In the case of missing data you can have the best value carried forward, least value carried forward or the last value carried forward options
     - `if then else`
         - You can use this to create categories. The categories should be mutually exclusive
     - functions (`input`, `put`, `date`)
