@@ -93,11 +93,15 @@ Clinical Report Forms - 10 types
     - `proc freq`
         - Can be used to detect missing values
     - `proc univariate`
-        - Descriptive statistics. Options plots, ods graphics on
+        - Descriptive statistics. Options plots, ods graphics on. Performs one sample t test
+    - `proc ttest`
+        - you can also specify the option of paired
     - `proc transpose`
         - Converting data frin long to wide and from wide to long. Alternatively this can also be done using a ` data doloop`
     - `data`
         - keep and drop options. Note that the lable option for data set is not the same as the lable option for a variable
+    - `proc report`
+        - For generating analysis reports. Has options to `compute`, `analysis` options
 - **Transform Clinical Trials Data**
     - Transforming data from long to wide and wide to long
     - `doloop`, `proc transpose`
@@ -115,6 +119,9 @@ Clinical Report Forms - 10 types
     - `extract`
 - **Macro Programming**
     - `mprint`, `symbolgen`, `mlogic`
+    - 
+
+- **
 
 - SAS V5 format: 
     - SAS V5 (`XPT` or `XPORT` file)
