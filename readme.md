@@ -62,8 +62,7 @@ Clinical Report Forms - 10 types
     - Concomitant or prior meds
     - Medical history
     - Laboratory
-    - Adverse Event
-        
+    - Adverse Event      
     - Endpoint/event assessment
     - Clinicl enpoint committee
     - Study termination data
@@ -119,9 +118,9 @@ Clinical Report Forms - 10 types
     - `extract`
 - **Macro Programming**
     - `mprint`, `symbolgen`, `mlogic`
-    - 
 
-- **
+- **Validation**
+    - 
 
 - SAS V5 format: 
     - SAS V5 (`XPT` or `XPORT` file)
